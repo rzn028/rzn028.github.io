@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <style>
+      #header{
+        position:fixed;
+        width:100%;
+        z-index: 999;
+
+      }
+    </style>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+<!--div class="container-fluid" style="position: fixed; overflow: none;"-->
+<div class="container-fluid">
+  <div id="header" class="row align-items-center alert-success">
+    <a class="navbar-brand">
+    <div class="col-2">
+      <a href=""><img src="logo.jpg" width="170" height="50" id="logo"></a>
+    </div></a>
+    <div class="col-6">
+      <center><input class="form-control" type="text" placeholder="Search...." ></center>
+    </div>
+    <div class="col">
+      <center><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Login/Signup</button></center>
+    </div>
+    <div class="col">
+      <a href="#" class="nav-link active">About Us</a>
+    </div>
+    <div class="col">
+      <a href="#" class="nav-link active">Conact Us</a>
+    </div>
+  </div>
+</div>
+<br/><br><br>
+<!--/div-->
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade " id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" >
+  <div class="modal-dialog modal-dialog-centered" role="document" >
+    <div class="modal-content bg-light" >
+      <div class="modal-header">
+        <h5 class="modal-title" id="">Log in/Sign up</h5>
+      </div>
+      <div class="modal-body">
+          <div class="container">
+             <div class="nav nav-tabs" id="nav-tab" role="tablist">
+    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Log in</a>
+    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Sign up</a>
+  </div>
+</nav>
+<div class="tab-content" id="nav-tabContent">
+  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">           <form>
+
+            <legend><center>Log in</center></legend><br/>
+                <div class="form-group">
+                <div class="input-group">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon1">@</span>
+  </div>
+  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" required="text">
+</div>
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required="password">
+                </div>
+               
+                 <button type="submit" class="btn btn-primary">Log in</button>
+                  <button type="submit" class="btn btn-secondary" value="reset form">Reset</button>
+                  
+        
+               
+              </form></div>
+  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+               <form>
+
+            <legend><center>Sign Up</center></legend><br/>
+                <div class="form-group">
+                   <div class="row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="First name" required="text">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Last name" required="text">
+    </div>
+  </div>
+</div>
+<div class="form-group">
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required="email">
+</div>
+<div class="input-group">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon1">@</span>
+  </div>
+  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" required="text">
+</div>
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required="password">
+                </div>
+               
+                 <button type="submit" class="btn btn-primary">Sign Up</button>
+                  <button type="submit" class="btn btn-secondary" >Reset</button>
+                  
+        
+               
+              </form>
+  </div>
+</div>
+
+            </div>
+  
+   
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div><br/>
+
+
+<div class="row">
+
+   <div class="col-9">
+
+    <div class="container">
+      <div class="alert-light" style="border: 1px solid #acacac">
+        <div class="container" id="a">
+<font color="#575859" size="5"><b><center>BuyKART</center></b></font><br><hr>
+<font color="#575859" size="4"><b><center>Lets Get Better at Shopping</center></b></font><br><br>
+</div>
+</div>
+<br>
+    <div class="container">
+<div class="row alert-dark">
+  <div class="col-4">
+     <a href="#" class="nav-link active" style="border-right: 3px solid #6d6f72"><b><center>Live Contest</center></b></a>
+  </div>
+  <div class="col-4">
+     <a href="#" class="nav-link active"  style="border-right: 3px solid #6d6f72"><b><center>Up coming</center></b></a>
+  </div>
+  <div class="col-4">
+     <a href="#" class="nav-link active" ><b><center>Hackathon</center></b></a>
+  </div>
+</div></div>
+<br>
+<div class="row">
+  <div class="col-4">
+    <div class="container">
+      
+      <div class="card bg-light" style="width: 18rem;">
+        <img class="card-img-top" src="background.jpg">
+        <div class="card-body">
+           <h5 class="card-title">Event Name</h5><hr>
+           <h6 class="card-title">Timing : HH:MM:SS </h6>
+          <p class="card-text"></p>
+          <div class="card-footer bg-transparent border-dark">
+          <center>   <a href="#" class="btn btn-primary">Start Event</a></center></div>
+        </div>
+</div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="container">
+      <div class="card border-darK" style="width: 18rem;">
+        <img class="card-img-top" src="background.jpg">
+        <div class="card-body">
+           <h5 class="card-title">Event Name</h5><hr>
+           <h6 class="card-title">Timing : HH:MM:SS </h6>
+          <p class="card-text"></p>
+            <div class="card-footer bg-transparent border-dark">
+           <center> <a href="#" class="btn btn-primary">Start Event</a></center></div>
+        </div>
+</div>
+      
+
+    </div>
+  </div>
+    <div class="col-4">
+    <div class="container">
+      <div class="card bg-light" style="width: 18rem;">
+        <img class="card-img-top" src="background.jpg">
+        <div class="card-body">
+           <h5 class="card-title">Event name</h5><hr>
+            <h6 class="card-title">Timing : HH:MM:SS </h6>
+          <p class="card-text"></p>
+          <div class="card-footer bg-transparent border-dark">
+            <center><a href="#" class="btn btn-primary">Start Event</a></center></div>
+        </div>
+</div>
+      
+
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-4">
+    <div class="container">
+      
+      <div class="card bg-light" style="width: 18rem;">
+        <img class="card-img-top" src="background.jpg">
+        <div class="card-body">
+           <h5 class="card-title">Event Name</h5><hr>
+           <h6 class="card-title">Timing : HH:MM:SS </h6>
+          <p class="card-text"></p>
+          <div class="card-footer bg-transparent border-dark">
+          <center>   <a href="#" class="btn btn-primary">Start Event</a></center></div>
+        </div>
+</div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="container">
+      <div class="card border-darK" style="width: 18rem;">
+        <img class="card-img-top" src="background.jpg">
+        <div class="card-body">
+           <h5 class="card-title">Event Name</h5><hr>
+           <h6 class="card-title">Timing : HH:MM:SS </h6>
+          <p class="card-text"></p>
+            <div class="card-footer bg-transparent border-dark">
+           <center> <a href="#" class="btn btn-primary">Start Event</a></center></div>
+        </div>
+</div>
+      
+
+    </div>
+  </div>
+    <div class="col-4">
+    <div class="container">
+      <div class="card bg-light" style="width: 18rem;">
+        <img class="card-img-top" src="background.jpg">
+        <div class="card-body">
+           <h5 class="card-title">Event name</h5><hr>
+            <h6 class="card-title">Timing : HH:MM:SS </h6>
+          <p class="card-text"></p>
+          <div class="card-footer bg-transparent border-dark">
+            <center><a href="#" class="btn btn-primary">Start Event</a></center></div>
+        </div>
+</div>
+      
+
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-4">
+    <div class="container">
+      
+      <div class="card bg-light" style="width: 18rem;">
+        <img class="card-img-top" src="background.jpg">
+        <div class="card-body">
+           <h5 class="card-title">Event Name</h5><hr>
+           <h6 class="card-title">Timing : HH:MM:SS </h6>
+          <p class="card-text"></p>
+          <div class="card-footer bg-transparent border-dark">
+          <center>   <a href="#" class="btn btn-primary">Start Event</a></center></div>
+        </div>
+</div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="container">
+      <div class="card border-darK" style="width: 18rem;">
+        <img class="card-img-top" src="background.jpg">
+        <div class="card-body">
+           <h5 class="card-title">Event Name</h5><hr>
+           <h6 class="card-title">Timing : HH:MM:SS </h6>
+          <p class="card-text"></p>
+            <div class="card-footer bg-transparent border-dark">
+           <center> <a href="#" class="btn btn-primary">Start Event</a></center></div>
+        </div>
+</div>
+      
+
+    </div>
+  </div>
+    <div class="col-4">
+    <div class="container">
+      <div class="card bg-light" style="width: 18rem;">
+        <img class="card-img-top" src="background.jpg">
+        <div class="card-body">
+           <h5 class="card-title">Event name</h5><hr>
+            <h6 class="card-title">Timing : HH:MM:SS </h6>
+          <p class="card-text"></p>
+          <div class="card-footer bg-transparent border-dark">
+            <center><a href="#" class="btn btn-primary">Start Event</a></center></div>
+        </div>
+</div>
+      
+
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-4">
+    <div class="container">
+      
+      <div class="card bg-light" style="width: 18rem;">
+        <img class="card-img-top" src="background.jpg">
+        <div class="card-body">
+           <h5 class="card-title">Event Name</h5><hr>
+           <h6 class="card-title">Timing : HH:MM:SS </h6>
+          <p class="card-text"></p>
+          <div class="card-footer bg-transparent border-dark">
+          <center>   <a href="#" class="btn btn-primary">Start Event</a></center></div>
+        </div>
+</div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="container">
+      <div class="card border-darK" style="width: 18rem;">
+        <img class="card-img-top" src="background.jpg">
+        <div class="card-body">
+           <h5 class="card-title">Event Name</h5><hr>
+           <h6 class="card-title">Timing : HH:MM:SS </h6>
+          <p class="card-text"></p>
+            <div class="card-footer bg-transparent border-dark">
+           <center> <a href="#" class="btn btn-primary">Start Event</a></center></div>
+        </div>
+</div>
+      
+
+    </div>
+  </div>
+    <div class="col-4">
+    <div class="container">
+      <div class="card bg-light" style="width: 18rem;">
+        <img class="card-img-top" src="background.jpg">
+        <div class="card-body">
+           <h5 class="card-title">Event name</h5><hr>
+            <h6 class="card-title">Timing : HH:MM:SS </h6>
+          <p class="card-text"></p>
+          <div class="card-footer bg-transparent border-dark">
+            <center><a href="#" class="btn btn-primary">Start Event</a></center></div>
+        </div>
+</div>
+      
+
+    </div>
+  </div>
+</div>
+<br><br>
+
+</div>
+   </div>
+   <div class="col-3">
+   <div class="alert alert-danger" role="alert">
+  <center><hr><h4 class="alert-danger">Ad</h4><hr>
+  <br/><br/><br/><br/>
+  space for advertisement<br/><br/><br/><br/>
+
+  </center>
+  <hr>
+</div>
+    <div class="alert alert-success" role="alert">
+  <center><hr><h4 class="alert-heading">Read Our Notes</h4></center><hr>
+  <p>Notes is a good helper to manage your schedules and notes. It gives you a quick and simple notepad editing experience when you write notes, memo, email, message, shopping list and to do list. It makes to take a note easier than any other notepad and memo apps.</p>
+</div>
+    <div class="alert alert-warning" role="alert">
+  <center><hr><h4 class="alert-heading">Bookmarks</h4></center><hr>
+<i class="fas fa-bookmark"></i> January circuits '18<br/>
+<i class="fas fa-bookmark"></i> Hackaton<br/>
+<i class="fas fa-bookmark"></i> Machine learning<br/>
+<i class="fas fa-bookmark"></i> Kronothon<br/>
+<i class="fas fa-bookmark"></i> Equal Expert Hiring<br/>
+<i class="fas fa-bookmark"></i> February circuits '18<br/>
+<i class="fas fa-bookmark"></i> January SQL Challenge<br/>
+<hr>
+
+</div>
+ <div class="alert alert-success" role="alert">
+  <center><hr><h4 class="alert-info">Notifications</h4></center><hr>
+<i class="fas fa-arrow-circle-right"></i> February Easy '18 is about to start.<br/>
+<i class="fas fa-arrow-circle-right"></i> Check the result of your last fight<br/>
+<i class="fas fa-arrow-circle-right"></i> All our services will be down for maintenance on 17th August 2017 from 8:00 AM to 2:00 PM IST. We regret any inconvenience..<br/>
+<i class="fas fa-arrow-circle-right"></i>  Hack & Win a trip to Old Trafford.
+ Jun 27, 2017 at 05:21 PM<br/>
+<i class="fas fa-arrow-circle-right"></i> ABCD sent you a message<br/>
+<hr>
+</div>
+<div class="alert alert-dark" role="alert">
+  <strong>Discussion Forums</strong>
+  </div>
+  <div class="alert alert-secondary" role="alert">
+  <strong>Trends</strong>
+  </div>
+  </div>
+</div>
+<div class="row align-items-center alert-dark">
+  <div class="col-3">
+    <center><a href="#"><i class="fas fa-arrow-up fa-3x"></i></a></center>
+  </div>
+  <div class="col-6" style="margin-top: 8px;">
+    <center>
+      <p>Email:contact@buykart.com<br>11,xyz place<br>Faridabad-121004 , Haryana
+    </center>
+  </div>
+  <div class="col-3">
+    
+  </div>
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
